@@ -3,7 +3,7 @@ import Banner from "./modules/HomeModule/Banner";
 
 export default function Home() {
   return (
-    <main className="mt-[80px] lg:mt-[113px]">
+    <main className="mt-[80px] lg:mt-[103px]">
       <Banner />
     </main>
   );
