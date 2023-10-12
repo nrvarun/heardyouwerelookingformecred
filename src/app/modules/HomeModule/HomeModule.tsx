@@ -4,6 +4,7 @@ import MasonryGallery from "@/app/components/MasonryGallery";
 import WhyCred from "./WhyCred";
 import LifeAtCred from "./LifeAtCred";
 import HireMeCred from "./HireMeCred";
+import MyWork from "./MyWork";
 
 type Props = {};
 
@@ -13,6 +14,7 @@ const HomeModule = (props: Props) => {
       <Banner />
       <WhyCred />
       <LifeAtCred />
+      <MyWork />
       <HireMeCred />
     </main>
   );
