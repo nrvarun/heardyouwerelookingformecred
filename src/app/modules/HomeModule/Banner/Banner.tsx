@@ -7,32 +7,32 @@ const GALLERY_ENTRIES = [
   {
     id: 1,
     title: "1",
-    path: "https://careers.cred.club/Images/landingPage_1.jpg",
+    path: "https://plus.unsplash.com/premium_photo-1678566111481-8e275550b700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 2,
     title: "2",
-    path: "https://careers.cred.club/Images/landingPage_2.jpg",
+    path: "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 3,
     title: "3",
-    path: "https://careers.cred.club/Images/landingPage_3.jpg",
+    path: "https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 4,
     title: "4",
-    path: "https://careers.cred.club/Images/landingPage_4.jpg",
+    path: "https://plus.unsplash.com/premium_photo-1674407009848-4da7a12b6b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 5,
     title: "5",
-    path: "https://careers.cred.club/Images/landingPage_5.jpg",
+    path: "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 6,
     title: "6",
-    path: "https://careers.cred.club/Images/landingPage_6.jpg",
+    path: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
   },
 ];
 

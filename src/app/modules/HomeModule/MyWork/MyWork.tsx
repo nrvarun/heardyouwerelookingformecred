@@ -25,7 +25,7 @@ const MyWork = (props: Props) => {
             link="https://achuta.vercel.app/"
           />
           <PortfolioWork
-            title="Tata Steel"
+            title="Digeca"
             desc="a comprehensive health insurance, so you can focus on the healing instead of never ending hospital bills."
             link="https://digeca.tatasteel.com"
           />
