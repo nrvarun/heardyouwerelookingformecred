@@ -1,0 +1,65 @@
+.masonry {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        margin: 0 24px 24px 0;
+        display: flex;
+
+        &:last-child {
+            margin: 0;
+        }
+        
+        .masonry-img-wrapper {
+           width: 100%;
+            overflow: hidden;
+            border-radius: 1rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin-top: auto;
+            }
+        }
+        
+        
+        &:nth-child(6n+1) {
+            width: 22%;
+        }
+        
+        &:nth-child(6n+2) {
+            width: 22%;
+            
+            .masonry-img-wrapper {
+                height: 70%;
+                margin-top: auto;
+            }
+        }
+        
+        &:nth-child(6n+3) {
+            width: 50%;
+            margin: 0 0 24px 0;
+
+            .masonry-img-wrapper {
+                height: 80%;
+                margin-top: auto;
+            }
+        }
+
+        &:nth-child(6n+4) {
+            width: 35%;
+        }
+
+        &:nth-child(6n+5) {
+            width: 38%;
+            margin: 0 1.5rem 0 0;
+        }
+
+        &:nth-child(6n+6) {
+            width: 20%;
+            margin: 0 0 4rem 0;
+        }
+    }
+}

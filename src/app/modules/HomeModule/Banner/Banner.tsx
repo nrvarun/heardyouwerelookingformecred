@@ -1,6 +1,40 @@
+import MasonryGallery from "@/app/components/MasonryGallery";
 import Image from "next/image";
 
 type Props = {};
+
+const GALLERY_ENTRIES = [
+  {
+    id: 1,
+    title: "1",
+    path: "https://careers.cred.club/Images/landingPage_1.jpg",
+  },
+  {
+    id: 2,
+    title: "2",
+    path: "https://careers.cred.club/Images/landingPage_2.jpg",
+  },
+  {
+    id: 3,
+    title: "3",
+    path: "https://careers.cred.club/Images/landingPage_3.jpg",
+  },
+  {
+    id: 4,
+    title: "4",
+    path: "https://careers.cred.club/Images/landingPage_4.jpg",
+  },
+  {
+    id: 5,
+    title: "5",
+    path: "https://careers.cred.club/Images/landingPage_5.jpg",
+  },
+  {
+    id: 6,
+    title: "6",
+    path: "https://careers.cred.club/Images/landingPage_6.jpg",
+  },
+];
 
 const Banner = (props: Props) => {
   return (
@@ -23,6 +57,9 @@ const Banner = (props: Props) => {
             </span>
           </button>
         </div>
+      </div>
+      <div className="container mt-20 md:mt-32 lg:mt-40 hidden lg:block">
+        <MasonryGallery items={GALLERY_ENTRIES} />
       </div>
     </section>
   );

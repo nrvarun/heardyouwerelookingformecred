@@ -22,6 +22,10 @@ const config: Config = {
         center: true,
       },
       screens: {},
+      colors: {
+        "primary-blue": "#3a44a1",
+        grayf3: "#F3F3F3",
+      },
     },
   },
   plugins: [],

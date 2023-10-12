@@ -1,10 +1,5 @@
-import Image from "next/image";
-import Banner from "./modules/HomeModule/Banner";
+import HomeModule from "./modules/HomeModule";
 
 export default function Home() {
-  return (
-    <main className="mt-[80px] lg:mt-[103px]">
-      <Banner />
-    </main>
-  );
+  return <HomeModule />;
 }
