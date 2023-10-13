@@ -38,13 +38,13 @@ const GALLERY_ENTRIES = [
 ];
 
 const Banner = (props: Props) => {
-  const lifeSection = document.getElementById("workingWithMe");
+  // const lifeSection = document.getElementById("workingWithMe");
 
-  const goToLife = useCallback(() => {
-    if (lifeSection) {
-      lifeSection.scrollIntoView();
-    }
-  }, []);
+  // const goToLife = useCallback(() => {
+  //   if (lifeSection) {
+  //     lifeSection.scrollIntoView();
+  //   }
+  // }, []);
 
   return (
     <section className="pt-28 md:pt-32 lg:pt-40 pb-24 md:pb-28 lg:pb-36">
