@@ -11,7 +11,7 @@ const HireMeCred = (props: Props) => {
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-extrabold lg:leading-tight text-black mb-10 ">
             What do you think
           </h2>
-          <CredCard detail="So am i good enough to be in your mafia 😉" />
+          <CredCard detail="Am i good fit" />
         </div>
       </div>
     </section>

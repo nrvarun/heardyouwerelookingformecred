@@ -1,5 +1,6 @@
 import MasonryGallery from "@/app/components/MasonryGallery";
 import Image from "next/image";
+import { useCallback } from "react";
 
 type Props = {};
 
@@ -37,17 +38,25 @@ const GALLERY_ENTRIES = [
 ];
 
 const Banner = (props: Props) => {
+  const lifeSection = document.getElementById("workingWithMe");
+
+  const goToLife = useCallback(() => {
+    if (lifeSection) {
+      lifeSection.scrollIntoView();
+    }
+  }, []);
+
   return (
     <section className="pt-28 md:pt-32 lg:pt-40 pb-24 md:pb-28 lg:pb-36">
       <div className="container flex">
         <div className="m-auto text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-8 md:mb-12 lg:mb-14 tracking-wider">
-            opportunities are infinite.
+            Hey there CRED mafia
           </h2>
 
           <button className="bg-black font-bold text-sm md:text-base lg:text-lg rounded-[20px] mx-auto text-white px-5 py-2 lg:px-10 lg:py-3 flex items-center">
-            find yours
-            <span className="ml-2">
+            find more about me
+            <span className="ml-2 rotate-90">
               <Image
                 width={14}
                 height={14}

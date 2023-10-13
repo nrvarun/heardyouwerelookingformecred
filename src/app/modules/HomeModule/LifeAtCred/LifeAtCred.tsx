@@ -5,7 +5,7 @@ type Props = {};
 
 const LifeAtCred = (props: Props) => {
   return (
-    <section className="py-20 md:py-28 lg:py-36 px-10">
+    <section className="py-20 md:py-28 lg:py-36 px-10" id="workingWithMe">
       <div className="container max-w-[880px]">
         <div className="grid lg:grid-cols-2 lg:gap-32 mb-14 md:mb-20 lg:mb-36">
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-extrabold mb-10 lg:mb-0 lg:leading-tight text-primary-blue">{`want to know what it's like to work at CRED?`}</h2>
