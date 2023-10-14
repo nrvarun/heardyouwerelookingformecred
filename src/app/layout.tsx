@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Heard you were looking for me CRED",
   description:
-    "How are you front-end mafia, heard you were looking for me, how are you folks. What all do i gotta do to be part of this rockstars.",
+    "How are you front-end mafia, heard you were looking for me, how are you folks.",
 };
 
 export default function RootLayout({

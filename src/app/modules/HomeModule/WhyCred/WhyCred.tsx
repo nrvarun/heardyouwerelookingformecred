@@ -44,7 +44,7 @@ const WhyCred = (props: Props) => {
           </ul>
         </div>
         <div className="text-center">
-          <WhyCredDesc text="I am rather excited about the growth and learning opportunity i would be getting if i do get to be part of the team than pay!" />
+          <WhyCredDesc text="I am rather excited about the growth and learning opportunity i would be getting if i do get to be part of the team than anything else!" />
         </div>
       </div>
     </section>
