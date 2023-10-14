@@ -54,17 +54,17 @@ const Banner = (props: Props) => {
             Hey there CRED mafia
           </h2>
 
-          <button className="bg-black font-bold text-sm md:text-base lg:text-lg rounded-[20px] mx-auto text-white px-5 py-2 lg:px-10 lg:py-3 flex items-center">
-            find more about me
-            <span className="ml-2 rotate-90">
+          <p className="bg-black font-bold text-sm md:text-base lg:text-lg rounded-[20px] mx-auto text-white px-5 py-2 lg:px-10 lg:py-3 inline-flex items-center">
+            Heard you were on the lookout for a UI guy
+            {/* <span className="ml-2 rotate-90">
               <Image
                 width={14}
                 height={14}
                 src="/icons/right-arrow.svg"
                 alt="right arrow"
               />
-            </span>
-          </button>
+            </span> */}
+          </p>
         </div>
       </div>
       <div className="container mt-20 md:mt-32 lg:mt-40 hidden lg:block">
