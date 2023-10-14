@@ -26,7 +26,7 @@ const Footer = (props: Props) => {
           <p className="text-xs md:text-sm lg:text-lg text-gray-500">
             Here is where you can find more about me.
           </p>
-          <ul className="flex mt-4">
+          <ul className="flex items-center mt-4">
             <li className="mr-4">
               <Link
                 href="https://github.com/nrvarun"
@@ -41,7 +41,7 @@ const Footer = (props: Props) => {
                 />
               </Link>
             </li>
-            <li>
+            <li className="mr-2">
               <Link
                 href="https://www.linkedin.com/in/varunnr/"
                 target="_blank"
@@ -52,6 +52,21 @@ const Footer = (props: Props) => {
                   alt="just a linkedin svg icon"
                   width={24}
                   height={24}
+                />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/docs/resume-varun.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/icons/cv.svg"
+                  alt="just an icon for my resume"
+                  className="-mb-[4px]"
+                  width={28}
+                  height={28}
                 />
               </Link>
             </li>
