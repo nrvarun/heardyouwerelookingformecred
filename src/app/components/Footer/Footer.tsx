@@ -17,10 +17,22 @@ const Footer = (props: Props) => {
             just talk, so i had to show i can code and this whole thing took me
             a day to make.
           </p>
-          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1">
-            Do take this code and use it for your career site if you really like
-            this.
+          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1 inline-flex">
+            Now if you wanna take a peek under the hood, here is the repo.
           </p>
+          <Link
+            href="https://github.com/nrvarun/heardyouwerelookingformecred"
+            target="_blank"
+            className="inline-flex"
+          >
+            <span className="mr-2">Repo :</span>
+            <Image
+              src="/icons/github.svg"
+              alt="just a github svg icon"
+              width={24}
+              height={24}
+            />
+          </Link>
         </div>
         <div className="w-2/3">
           <p className="text-xs md:text-sm lg:text-lg text-gray-500">
