@@ -10,14 +10,16 @@ const Footer = (props: Props) => {
       <div className="container grid lg:grid-cols-[60%_30%] gap-6 lg:gap-24">
         <div className="w-3/4">
           <h3 className="text-sm md:text-base lg:text-lg font-bold mb-1 md:mb-2 lg:mb-3">
-            applying to work at CRED
+            Why i buit this CRED
           </h3>
-          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1 lg:mb-2">
-            Hope you have a place for someone who is passionate, dedicated and
-            driven.
+          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1 lg:mb-4">
+            I am firm believer in showing that you have a certain feature than
+            just talk, so i had to show i can code and this whole thing took me
+            a day to make.
           </p>
-          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1 lg:mb-2">
-            Varun
+          <p className="text-xs md:text-sm lg:text-lg text-gray-500 mb-1">
+            Do take this code and use it for your career site if you really like
+            this.
           </p>
         </div>
         <div className="w-2/3">

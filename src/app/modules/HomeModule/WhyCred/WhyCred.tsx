@@ -31,7 +31,7 @@ const WhyCred = (props: Props) => {
                   2
                 </p>
               </div>
-              <WhyCredDesc text="To work with such incredible geniuses would be just amazing." />
+              <WhyCredDesc text="To work with the tech geniuses at CRED would be just incredible." />
             </li>
             <li className="text-center mb-12 md:mb-20 lg:mb-28">
               <div className="w-12 h-12 mb-4 md:mb-6 lg:mb-8 rounded-full border inline-flex">
@@ -44,7 +44,7 @@ const WhyCred = (props: Props) => {
           </ul>
         </div>
         <div className="text-center">
-          <WhyCredDesc text="Being someone who found his passion for frontend and believe that the UX is not what you design on the wireframes and sketches, but what the user actually get to experience." />
+          <WhyCredDesc text="I am rather excited about the growth and learning opportunity i would be getting if i do get to be part of the team than pay!" />
         </div>
       </div>
     </section>

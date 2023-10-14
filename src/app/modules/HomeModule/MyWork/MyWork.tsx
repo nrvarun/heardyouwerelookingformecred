@@ -13,8 +13,8 @@ const MyWork = (props: Props) => {
           </h2>
           <div>
             <p className="text-md md:text-base lg:text-xl text-gray-500 lg:leading-loose font-medium">
-              These are some of latest work, that i have done in the last one
-              year. There is more obviously, which we can talk about later on.
+              These are some of my latest work, that i have done in the last few
+              years. There is more obviously, which we can talk about later on.
             </p>
           </div>
         </div>
