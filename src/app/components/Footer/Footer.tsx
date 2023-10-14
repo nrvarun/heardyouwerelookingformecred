@@ -53,7 +53,7 @@ const Footer = (props: Props) => {
                 />
               </Link>
             </li>
-            <li className="mr-2">
+            <li className="mr-4">
               <Link
                 href="https://www.linkedin.com/in/varunnr/"
                 target="_blank"
@@ -62,6 +62,21 @@ const Footer = (props: Props) => {
                 <Image
                   src="/icons/linkedin.svg"
                   alt="just a linkedin svg icon"
+                  width={24}
+                  height={24}
+                />
+              </Link>
+            </li>
+            <li className="mr-2">
+              <Link
+                href="mailto:inr.varun89@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/icons/mail.svg"
+                  alt="email icon"
+                  className="-mb-[4px]"
                   width={24}
                   height={24}
                 />
@@ -76,9 +91,8 @@ const Footer = (props: Props) => {
                 <Image
                   src="/icons/cv.svg"
                   alt="just an icon for my resume"
-                  className="-mb-[4px]"
-                  width={28}
-                  height={28}
+                  width={26}
+                  height={26}
                 />
               </Link>
             </li>
